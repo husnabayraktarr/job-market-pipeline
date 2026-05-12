@@ -26,3 +26,6 @@ JSearch API → Python Producer → SQS → Lambda → S3
 3. Configure AWS CLI: aws configure
 4. Set environment variables for API key and SQS URL
 5. Run: python producer.py
+
+## Architecture diagram
+Data flows automatically after running producer.py — no manual steps needed.

@@ -4,8 +4,8 @@ import requests
 import json
 from datetime import datetime
 
-RAPIDAPI_KEY = "cb2187b36cmsh11676a52433633cp195d67jsn01237f7cccc4"
-QUEUE_URL = "https://sqs.us-east-1.amazonaws.com/040609979021/job-postings-queue"
+RAPIDAPI_KEY = os.environ.get("RAPIDAPI_KEY", "your-api-key-here")
+QUEUE_URL = os.environ.get("QUEUE_URL", "your-queue-url-here")
 
 sqs = boto3.client('sqs', region_name='us-east-1')
 

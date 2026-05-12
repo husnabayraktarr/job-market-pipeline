@@ -1,5 +1,8 @@
 # Real-Time Job Market Intelligence Pipeline
 
+## Live Dashboard
+🚀 [View Live Dashboard](https://job-market-pipeline-uqs73pjjih6tsz5kbfwl99.streamlit.app/)
+
 A fully automated data pipeline that streams live job postings into AWS and displays them in an interactive dashboard.
 
 ## Architecture
